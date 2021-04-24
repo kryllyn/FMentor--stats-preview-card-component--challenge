@@ -21,20 +21,17 @@
   }
   h1, h2 {
     color:hsl(0, 0%, 100%);
-    /* border:1px solid black; */
-  }
+    }
   div {
-    /* border:2px solid red; */
+
   }
   p {
     color:hsla(0, 0%, 100%, 0.75);
     font-family:Lexend Deca, sans-serif;
-    /* border:1px solid black; */
-  }
+    }
   .stats span {
     color:hsla(0, 0%, 100%, 0.6);
-    /* border:1px solid black; */
-  }
+    }
   .flex-container.one {
     background-color:hsl(244, 38%, 16%);
   }
@@ -59,7 +56,7 @@
     position:absolute;
     top:25%;
     left:25%;
-  }
+    }
   .flex-container-max>* {
     flex:0 0 50%;
   }
@@ -75,12 +72,16 @@
   div.stats>* {
     flex:0 1 100%;
   }
+  div.txt *{
+  }
   div.stats * {
     margin:0;
   }
   div.stats span {
     text-transform: uppercase;
   }
+
+
   @media (max-width:380px) {
     .flex-container-max {
       flex-direction:column-reverse;
